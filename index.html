@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Работа с DOM</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="page">
+    <h1 class="title page__title">Анатолий, верстальщик</h1>
+    <button id="open-popup-button" class="button">Редактировать</button>
+
+    <div id="edit-popup" class="popup">
+      <div class="popup__content">
+        <form id="edit-form" class="popup__form">
+          <h2 class="title">Редактировать имя</h2>
+          <input id="name-input" type="text" class="input" />
+          <button type="submit" class="button">Сохранить</button>
+        </form>
+
+        <button id="close-popup-button" class="popup__close-button"></button>
+      </div>
+    </div>
+  </body>
+</html>
